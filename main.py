@@ -29,7 +29,7 @@ class initialize():
 
     def to_view(self):
         for transaction in self.__transactions:
-            print(f'Operation: {transaction(0)} - Value: {transaction(1)} - Description: {transaction(2)}')
+            print(f'Operation: {transaction[0]} - Value: {transaction[1]} - Description: {transaction[2]}')
 
     def to_go_out(self):
         print('Obrigado, volte sempre!')
